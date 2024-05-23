@@ -8009,14 +8009,24 @@ ul.progress-info { display: flex; justify-content: space-between; }
   align-items: center;
 }
 
-.logo-light.custom-logo {
+.logo-light.custom-logo-1 {
   height: 45px; /* Adjust the height as needed */
   width: auto;
   margin-right: 5px; /* Space between logos */
 }
 
+.logo-light.custom-logo-2 {
+  height: 55px; /* Adjust the height as needed */
+  width: auto;
+  margin-right: 5px; /* Space between logos */
+}
+
 @media (max-width: 768px) {
-  .custom-logo {
+  .custom-logo-1 {
       height: 40px; /* Adjust for mobile view */
+  }
+
+  .custom-logo-1 {
+    height: 50px; /* Adjust for mobile view */
   }
 }
